@@ -1,0 +1,219 @@
+body {
+  background: linear-gradient(to right, #0000ff 0%, #ff00ff 100%);
+}
+.main_div {
+  margin-top: 20px;
+}
+.main {
+  text-align: center;
+  width: 450px;
+}
+.into {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 1% auto;
+  margin-right: auto;
+  margin-left: auto;
+  width: 21%;
+  border: black solid 1px;
+  border-radius: 2px;
+  width: 233px;
+}
+input {
+  padding: 10px;
+  width: 200px;
+  font-size: 14px;
+  border: none;
+  outline: none;
+  font-family: Montserrat;
+  font-weight: bold;
+  text-align: center;
+}
+button {
+  font-size: 20px;
+  padding: 0 10px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-family: Montserrat;
+  font-weight: bold;
+}
+h2 {
+  color: black;
+  margin: 10px auto;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+img {
+  width: 140px;
+  height: 140px;
+  margin: 40px auto;
+}
+.WeatherContainer {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.WeatherIcon {
+  width: 100px;
+  height: 100px;
+  margin: 5px auto;
+}
+.InfoContainer {
+  display: flex;
+  margin: -10px 15px;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.WeatherInfoContainer {
+  display: flex;
+  width: 90%;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.Location {
+  text-transform: capitalize;
+  font-size: 20px;
+  font-weight: bold;
+}
+.Condition {
+  margin: 20px auto;
+  text-transform: capitalize;
+  font-size: 14px;
+}
+.Condition > span {
+  font-size: 28px;
+}
+.InfoIcon {
+  width: 36px;
+  height: 36px;
+}
+.InfoLabel {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  margin: 15px;
+}
+.InfoLabel > span {
+  font-size: 12px;
+  text-transform: capitalize;
+}
+.AppLabel {
+  color: black;
+  margin: auto;
+  font-size: 30px;
+  font-weight: bold;
+}
+.Container1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 700px;
+  padding: 20px 10px;
+  margin: auto;
+  border-radius: 4px;
+  box-shadow: 0 3px 6px 0 #555;
+  background: linear-gradient(to right, #00ccff 0%, #ff6666 100%);
+  font-family: Montserrat;
+}
+.future-forecast {
+  background: rgba(24, 24, 27, 0.8);
+  padding: 30px;
+  /*position: fixed;*/
+  bottom: 0;
+  display: flex;
+  color: white;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  overflow-y: hidden;
+}
+.weather-forecast {
+  display: flex;
+  width: 80%;
+  margin: auto;
+}
+.weather-forecast-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 14%;
+  margin: 0 5px;
+  padding: 15px;
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+}
+.weather-forecast-item:hover {
+  box-shadow: 0px 30px 18px 8px rgba(0, 0, 0, 0.1);
+  transform: scale(1.05, 1.05);
+}
+
+.future-date {
+  padding: 5px 15px;
+  border-radius: 50px;
+  text-align: center;
+}
+.min-max-temp {
+  font-weight: 100;
+  font-size: 13px;
+}
+.imgF {
+  width: 124px;
+  margin: 6px;
+  height: 72px;
+}
+
+.update_Forcast {
+  display: flex;
+  margin: auto;
+}
+.update_Forcast_Item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 14%;
+  margin: 0 5px;
+  margin-top: 186px;
+  border: 1px solid #eee;
+  padding: 10px;
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+}
+.cards {
+  width: 100%;
+  height: auto;
+}
+.card {
+  margin: 6%;
+  transition: all 0.4s cubic-bezier(1.175, 0.885, 0, 1);
+  width: 21.25%;
+  border-radius: 12px;
+  box-shadow: 0px 13px 10px -7px rgba(0, 0, 0, 0.1);
+  float: left;
+  text-align: center;
+  color: wheat;
+  font-size: 19px;
+}
+.card:hover {
+  box-shadow: 0px 30px 18px 8px rgba(0, 0, 0, 0.1);
+  transform: scale(1.05, 1.05);
+}
+.min-max-temp_card {
+  font-weight: 100;
+  font-size: 21px;
+}
