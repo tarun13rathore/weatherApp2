@@ -39,8 +39,9 @@ const WeatherInfo = () => {
     try {
       // e.preventDefault();
       const response = await Axios.get(
-        `https://api.openweathermap.org/data/2.5/forecast?q=${City}&units=metric&appid=67e17bddaac29ae7367f7203c7764ad0`
-        // 771eb712ce86cce5eb76b4b761667c26
+        `https://api.openweathermap.org/data/2.5/forecast?q=${City}&units=metric&appid=771eb712ce86cce5eb76b4b761667c26`
+        //771eb712ce86cce5eb76b4b761667c26
+        //67e17bddaac29ae7367f7203c7764ad0
       );
       setPassAllData(response.data);
       const arr = [];
